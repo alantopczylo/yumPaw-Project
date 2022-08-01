@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋 This is my final project for Henry Bootcamp called yumPaw./h1>
+<h1 align="center">Hi 👋 This is my final project for Henry Bootcamp called yumPaw.</h1>
 <h3 align="center">An App where you can find dog boarding, dog walkers & pet-shop</h3>
 
 <a href="https://client-pg-teixeira26.vercel.app/"><h3 align="center">⚡ Checkout the project ⚡</h3></a>
