@@ -1,0 +1,17 @@
+.container{
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formCont{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.margintop{
+    margin-top: 20px;
+}

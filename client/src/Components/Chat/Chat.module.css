@@ -1,0 +1,57 @@
+.chat {
+    max-width: 60vw;
+    min-width: 50vw;
+    max-height: 45vh;
+    min-height: 45vh;
+    padding: 12px;
+    overflow: scroll;
+    border: 1px solid var(--darkGray);
+    border-radius: 8px;
+}
+
+.titleChat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: var(--mediumFont);
+    text-transform: uppercase;
+    padding: 24px;
+    margin: 0;
+    color: var(--black);
+}
+
+.titleChat h2 {
+    color: var(--black);
+    font-weight: 600;
+    font-size: medium;
+}
+
+.strong {
+    color: var(--shadowColor);
+}
+
+.form {
+    margin-top: 16px;
+}
+
+.form input {
+    width: 50vw;
+    height: 10vh;
+    padding: 16px;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+}
+
+.placeholder {
+    background-color: var(--white);
+    color: var(--primaryColor);
+    font-size: var(--p);
+}
+
+.form button {
+    margin-left: 24px;
+}
+
+.reserveBtn {
+    justify-self: flex-end;
+}

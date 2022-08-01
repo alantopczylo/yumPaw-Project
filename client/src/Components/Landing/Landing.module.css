@@ -1,0 +1,17 @@
+.hero{
+    margin-top: 64px;
+}
+
+.whatWeOffer{
+    margin-top: 80px;
+}
+
+.team{
+    margin-top: 80px;
+}
+
+.footer{
+    margin-top: var(--margin80);
+}
+
+

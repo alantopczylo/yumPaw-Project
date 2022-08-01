@@ -1,0 +1,49 @@
+.container {
+  width: 220px;
+  height: 100%;
+}
+
+.select {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid var(--darkGray);
+  outline: none;
+  background-color: transparent;
+}
+
+.selects {
+  display: flex;
+  flex-direction: column;
+}
+
+.selects:not(:first-child) {
+  margin: 40px 0;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkTitle {
+  margin-left: 16px;
+}
+
+.search {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid var(--darkGray);
+  outline: none;
+  background-color: transparent;
+}
+
+.filterTitle {
+  color: var(--tintColor);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+

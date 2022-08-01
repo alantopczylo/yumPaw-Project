@@ -1,0 +1,35 @@
+.flexHero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftHero{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.textHero{
+    font-size: var(--bigFont);
+    text-transform: uppercase;
+}
+
+.paragraph{
+    font-size: var(--p);
+}
+
+/* Button se parte de nuestra comunidad */
+.previewItems{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.imgHero{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-size: contain;
+    width: 460px;
+}

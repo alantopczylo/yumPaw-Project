@@ -1,0 +1,115 @@
+ .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+    padding: 0 80px;
+    border-bottom: 1px solid #bbb7ae;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.item{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.item:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+    flex: 1.2;
+}
+
+.item:last-child{
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.logoLink{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: unset;
+    color: var(--shadowColor);
+    transition: all ease-in-out 300ms;
+}
+
+.logoLink:hover{
+    color: var(--primaryColor);
+    
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 22px;
+}
+
+.profilePicture {
+    width: 50px;
+    height: 50px;
+    border-color: #7e52a0;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.navLink{
+    padding: 0 8px;
+    font-weight: 600;
+    margin: 0 16px;
+    color: var(--black);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navLink:active{
+    font-weight: 800;
+    color: var(--shadowColor);
+}
+
+.navLink:hover{
+    color: var(--primaryColor);
+    transition: all ease-in-out 300ms;
+}
+
+/* ICON LINKEDIN GITHUB */
+
+
+.icons{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    position: relative;
+}
+
+.navLinkIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon:not(:last-child){
+    margin-right: 40px;
+}
+
+.circle{
+    width: 26px;
+    height: 26px;
+    background-color: #7e52a0;
+    color: white;
+    border-radius: 50px;
+    border: 3px solid white;
+    position: absolute;
+    top: -6px;
+    right: -12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PRUEBA MENU DESPLEGABLE */

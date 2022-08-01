@@ -1,0 +1,95 @@
+.detailFlex{
+    display: flex;
+    justify-content: center;
+    width: 69vw;
+    margin: 100px auto;
+}
+
+.detailImg{
+    width: 550px;
+    height: 550px;
+    margin-right: 50px;
+}
+
+.detailRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detailCategory{
+    color: var(--gray);
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.detailTitle{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.detailInfo{
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.detailPrice{
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.detailQuantity{
+    color: var(--gray);
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.productQuantity{
+    display: flex;
+    align-items: center;
+    
+}
+
+.stock{
+    color: red;
+    margin-bottom: 12px;
+}
+
+.button{
+    background-color: var(--white);
+    padding: 0;
+    font-size: 18px;
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count{
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.detailAddCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.addButtonCart{
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

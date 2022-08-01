@@ -1,0 +1,15 @@
+.button{
+    background-color:transparent;
+    color: #7e52a0;
+    font-weight: 500;
+    border: 2px solid #7e52a0;
+    border-radius: 25px;
+    border: none;
+    margin: 0;
+}
+
+.button:hover{
+    background-color: #7e52a0;
+    color: white;
+    transition: all ease-in 200ms;
+}

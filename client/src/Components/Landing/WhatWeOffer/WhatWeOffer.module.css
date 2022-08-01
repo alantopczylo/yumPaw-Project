@@ -1,0 +1,42 @@
+.wwoTitle{
+    font-size: var(--mediumFont);
+    display: flex;
+    justify-content: center;
+}
+
+.wwoFlex{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 60px 24px;
+    justify-content: space-evenly;
+    margin-top: var(--margin80);
+}
+
+/* MODIFICAR */
+.wwoGrid{
+    display: grid;
+    gap: 30px 100px;
+    height: auto;
+    width: 300px;
+}
+
+.wwoImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.wwoImg{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.wwoText{
+    text-align: center;
+    font-size: var(--p);
+}

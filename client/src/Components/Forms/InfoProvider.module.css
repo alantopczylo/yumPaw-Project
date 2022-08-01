@@ -1,0 +1,26 @@
+.container{
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerFlex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+}
+
+.button{
+    margin-right: 24px;
+}
+
+.title{
+    text-transform: uppercase;
+}

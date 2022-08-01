@@ -1,0 +1,23 @@
+.container{
+  margin-top: var(--margin64);
+}
+
+.cardWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  gap: 64px;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.homeTitle {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: var(--mediumFont);
+  margin: 0;
+}
+
+.stickyFooter{
+  margin-top: auto;
+}

@@ -1,0 +1,30 @@
+.card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.cardImg {
+  height: 340px;
+  width: 100%;
+  object-fit: contain;
+  object-position: bottom;
+  transition: transform 200ms ease-in;
+}
+
+.cardImg:hover {
+  transform: scale(1.01);
+}
+
+.cardTitle {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: var(--p);
+  font-weight: 600;
+  color: var(--black);
+}
